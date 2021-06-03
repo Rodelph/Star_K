@@ -24,7 +24,7 @@
 const int Radius = 6;
 static int window_width, window_height;
 
-// Compile with " g++ me.cpp -lglfw ./c_file/glad.o -ldl -lsfml-audio -o gameDev "    and then     ./gameDev
+// Compile with " g++ main.cpp -lglfw ./c_file/glad.o -ldl -lsfml-audio -o gameDev "    and then     ./gameDev
 
 void getScreenResolution();
 void calculateFps();

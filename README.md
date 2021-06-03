@@ -10,5 +10,5 @@ https://www.math10.com/en/geometry/geogebra/geogebra.html
 ![plot](./res_images/star.png)
 
 Linux : 
-
-Compile with " g++ me.cpp -lglfw ./c_file/glad.o -ldl -lsfml-audio -o gameDev "    and then     ./gameDev
+From this directory " LearnOpenglCpp/res_code " where the main.cpp is located, 
+compile it with " g++ me.cpp -lglfw ./c_file/glad.o -ldl -lsfml-audio -o gameDev "    and then     ./gameDev
