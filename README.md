@@ -1,5 +1,4 @@
 Learning to draw stuff with opengl. The program draws a glowing start with random colors appearing on it.
-The rotation part is still broken will fix it later...
 
 The coordinates of the star were made on this website. 
 """

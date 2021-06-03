@@ -1,20 +1,16 @@
 #pragma once
 
-struct Vertex{
-    Vertex(float x, float y, float z){
-        Pos[0] = x;
-        Pos[1] = y;
-        Pos[2] = z;
-    }
-
-    float Pos[3] = {0.f, 0.f, 0.f};
-};
-
-struct DrawDetails{
-    DrawDetails(uint32_t v, uint32_t e){
-        vao = v;
-        numElements = e;
-    }
-    uint32_t vao = 0;
-    uint32_t numElements = 0;
+struct Vertex
+{
+	Vertex(float posx, float posy, float posz, float colorr, float colorg, float colorb) 
+	{
+		pos[0] = posx;
+		pos[1] = posy;
+		pos[2] = posz;
+		color[0] = colorr;
+		color[1] = colorg;
+		color[2] = colorb;
+	};
+	float pos[3];
+	float color[3];
 };

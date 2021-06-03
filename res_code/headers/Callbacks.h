@@ -1,6 +1,11 @@
 #pragma once
+
 #include <cstdio>
+#include "glad.h"
+#include <GLFW/glfw3.h>
 #include "Utilities.h"
+
+
 
 static void glfw_error_callback(int error, const char* description){
     write_log(description);
