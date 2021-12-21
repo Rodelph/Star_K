@@ -1,11 +1,11 @@
 Learning to draw stuff with opengl. The program draws a glowing start with random colors appearing on it.
 
 The coordinates of the star were made on this website. 
-"""
+
 
 https://www.math10.com/en/geometry/geogebra/geogebra.html
 
-"""
+
 
 ![plot](./res_images/star.png)
 
